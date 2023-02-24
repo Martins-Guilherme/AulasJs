@@ -31,6 +31,15 @@ header{
 .espaco{
 	margin-top: 50px;
 }
+/*
+
+Final aba index.html
+
+*/
+
+/*
+			Inicio aba eventos.html
+*/
 .rodape{
 	position: absolute;
 	top: 300px;
@@ -43,17 +52,20 @@ header{
 }
 .lista-exercicios{
 	display: flex;
-	flex-direction: row;
-	gap: 10px;
+	flex-wrap: wrap;
 	justify-content: space-around;
+	gap: 30px 0px;
 	min-width: calc(100vw - 100px);
 }
 .titulo-rodape{
 	display: flex;
 	padding-bottom: 50px;
 }
-.exercicio-ex1{
+.exercicio-ex1, .exercicio-ex2, .exercicio-ex3, .exercicio-ex4{
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
 	border: 3px solid red;
-	width: 200px;
+	width: 250px;
 	height: 200px;
 }
