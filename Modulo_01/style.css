@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	box-sizing: border-box;
+	height: 2000px;
+}
+header{
+	display: flex;
+	flex-direction: column;
+}
+.cabecalho{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+.inicio {
+	background-color: blue;
+}
+.navegacao{
+	display: flex;
+	float: right;
+	margin: 10px 30px auto;
+	gap: 30px;
+	background-color: white;
+	max-width: 1200px;
+}
+.espaco{
+	margin-top: 50px;
+}
