@@ -40,3 +40,21 @@ console.log(nomesCores); //imprimirá ["Amarelo", "Verde", "Azul", "Branco", "Pr
 const coresNomes = cores.map(cor => cor.nome);
 
 console.log("Arrow functions :\n",coresNomes); //imprimirá ["Amarelo", "Verde", "Azul", "Branco", "Preto"]
+
+
+
+
+/*
+			Script da pagina eventos
+*/
+
+
+function tex_invi(){
+	var eP = document.getElementById("texto_escondido");
+	eP.style.display = "none";
+}
+var hP = document.getElementById("titulo");
+
+hP.onclick = function(){
+document.getElementById("texto_escondido").style.display = "block";
+}

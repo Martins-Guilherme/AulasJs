@@ -31,3 +31,29 @@ header{
 .espaco{
 	margin-top: 50px;
 }
+.rodape{
+	position: absolute;
+	top: 300px;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.lista-exercicios{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: space-around;
+	min-width: calc(100vw - 100px);
+}
+.titulo-rodape{
+	display: flex;
+	padding-bottom: 50px;
+}
+.exercicio-ex1{
+	border: 3px solid red;
+	width: 200px;
+	height: 200px;
+}

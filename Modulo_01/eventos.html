@@ -17,7 +17,7 @@
 			</h2>
 		</header>
 		<nav class="navegacao inicio">
-			<a class="linkk" href="home.html">Home</a>
+			<a class="linkk" href="index.html">Home</a>
 		</nav>			
 	</section>	
 
@@ -26,18 +26,19 @@
 	<h1 id="titulo">Clique em qualquer lugar nesse texto para ver o conteúdo escondido.</h1>
 	<p id="texto_escondido">Texto escondido, que só será mostrado após click na texto acima.</p>
 
+	<section class="rodape">
+		<h4 class="titulo-rodape">Aba com alguns exercicios praticos.</h4>
+		<article class="lista-exercicios">
+		    <a class="exercicio-ex1" href="#">Interagindo com um botão</a>
+		    <a class="exercicio-ex2" href="##">2</a>
+		    <a class="exercicio-ex3" href="###">3</a>
+		    <a class="exercicio-ex4" href="####">4</a>
+		</article>
+	</section>
+
 	</main>
 	
-	<script type="text/javascript">
-		function tex_invi(){
-			var eP = document.getElementById("texto_escondido");
-			eP.style.display = "none";
-		}
-		var hP = document.getElementById("titulo");
 
-		hP.onclick = function(){
-		document.getElementById("texto_escondido").style.display = "block";
-		}
-	</script>	
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
