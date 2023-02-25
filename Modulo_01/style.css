@@ -69,3 +69,76 @@ Final aba index.html
 	width: 250px;
 	height: 200px;
 }
+
+/*
+
+									Inicio event_1.html
+
+*/
+
+
+.container{
+	background-color: #eee;
+	border: 2px solid red;
+	padding: 15px;
+	max-width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*flex-wrap: wrap;*/
+}
+
+.item{
+	background-color: #ccc;
+	border: 2px solid blue;
+	height: 50px;
+	width: 50px;
+}
+
+.box{
+	background-color: #ccc;
+	border: 2px solid blue;
+	height: 50px;
+
+	/*
+		hidth:  50px;
+		Controlando o tamanho inicial do container, 
+		desta forma não precisa declarar a width do
+		elemento
+	*/
+	flex-basis: 10px;
+}
+
+
+/*
+	flex-grow determina a proporção dos elementos
+	referente ao tamanho maximo do conteiner e apontamos
+	o valor da proporção, neste caso o box1 esta com o dobro do
+	valor do box2,box3 
+
+*/
+#item-1{
+	flex-grow: 2;
+}
+
+#item-2,
+#item-3{
+	flex-grow: 1;
+}
+
+#item-2{
+	flex-basis: 100px;
+	flex-shrink: 1;
+}
+
+
+
+
+
+
+
+
+
+
+

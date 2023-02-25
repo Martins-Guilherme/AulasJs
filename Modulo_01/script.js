@@ -49,12 +49,12 @@ console.log("Arrow functions :\n",coresNomes); //imprimirá ["Amarelo", "Verde",
 */
 
 
+var hP = document.getElementById("titulo");
 function tex_invi(){
 	var eP = document.getElementById("texto_escondido");
 	eP.style.display = "none";
 }
-var hP = document.getElementById("titulo");
 
-hP.onclick = function(){
+hP.onclick = function() => {
 document.getElementById("texto_escondido").style.display = "block";
 }
